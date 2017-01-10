@@ -35,7 +35,7 @@ ggplot(flow, aes(x = Minutes)) +
   scale_y_sqrt()
 {% endhighlight %}
 
-<img src="/Users/Smith/Library/Application\ Support/GitHub\ for\ Mac/PredictionErroR/_figures/2017-01-02-Quick-Count-Problem/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" width="650px" height="400px" />
+![]({{ site.url }}/assets/unnamed-chunk-2-1.png)
 
 A quick scan of the data set and this plot shows that values usuall fall under 2 with a sampler on value being significantly higher usually above 100. We can loop through our dataset and count the rows between our high number and reset our counter when we encounter one of these large values.
 The large values are atlease 1 order of magnitude higher than our other 'Minutes' values so being less than the log of our maximum minutes value should give us a criteria to reset the counter.
@@ -83,7 +83,7 @@ flow[c(30:40),]
 
 Looks like the counter is working. Wherever the counter resets the flow sampler is turning on. We can double check that its working for all our values by looking at the plot this time differentiating between sample 'On' and sampler 'Off'.
 
-<img src="/Users/Smith/Library/Application\ Support/GitHub\ for\ Mac/PredictionErroR/_figures/2017-01-02-Quick-Count-Problem/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" width="650px" height="400px" />
+![]({{ site.url }}/assets/unnamed-chunk-4-1.png)
 
 Done. This could be improved by dynamically determing the threshold rather than explicitly defining one. 
 
