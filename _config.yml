@@ -21,7 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bensbs.github.io/PredictionErroR" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  bensbs
-#linkedin_username: test
+linkedin_username: test
 
 # Build settings
 markdown: kramdown
