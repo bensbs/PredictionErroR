@@ -81,9 +81,10 @@ flow[c(30:40),]
 ## 40 487 42361.86     0 23/12/2015 20:37    1.35     5     Off
 {% endhighlight %}
 
-Looks like the counter is working. Wherever the counter resets the flow sampler is turning on. We can double check that its working for all our values by looking at the plot this time differentiating between sample 'On' and sampler 'Off'.
 
-![](assets/unnamed-chunk-4-1.png)
+Looks like the counter is working. Wherever the counter resets the flow sampler is turning on. We can double check that its working for all our values by looking at the plot this time differentiating between sample On and sampler Off.
+
+![](/assets/unnamed-chunk-4-1.png)
 
 Done. This could be improved by dynamically determing the threshold rather than explicitly defining one. 
 
