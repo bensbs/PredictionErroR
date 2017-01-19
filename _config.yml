@@ -23,6 +23,9 @@ url: "https://bensbs.github.io/PredictionErroR" # the base hostname & protocol f
 github_username:  bensbs
 linkedin_username: test
 
+# Google services
+google_analytics: UA-90588688-1
+
 # Build settings
 markdown: kramdown
 theme: minima
