@@ -8,5 +8,5 @@ My name is Ben Smith, I am a Data and Insights Analyst at hotelscombined.com in 
 
 [Resume]({{ site.url }}/assets/Ben_Smith_Resume.pdf)
 
-<img src="Assets/climb.png" width="400">
+<img src="/Assets/climb.png" width="400">
 
